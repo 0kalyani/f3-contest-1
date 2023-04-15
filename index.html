@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+        }
+        .row{
+            display: flex;
+            gap: 100px;
+        }
+        #name{
+            width: 300px;
+            height: 30px;
+        }
+
+        #email{
+            width: 300px;
+            height: 30px; 
+        }
+
+        #age{
+            width: 300px;
+            height: 30px;
+        }
+
+
+        #a1{
+            margin-top: 10px;
+            width: 100px;
+            height: 30px;
+        }
+        li{
+            border: 2px solid black;
+            height: 40px;
+            width: 300px;
+            text-align: center;
+            margin-top: 4px;
+        }
+
+        #p1{
+            color: green;
+            margin-top: 20px;
+        }
+
+        #p2{
+            color: red;
+            margin-top: 20px;
+        }
+        #d1{
+            color: brown;
+            width: 100px;
+            height: 30px;
+        }
+
+        #s1{
+            width: 300px;
+            border: 2px solid white;
+            display: flex;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h2>New Employees</h2>
+    <div class="row">
+        <div class="col">Name<div><input type="text" id="name"></div></div>
+        <div class="col">Name<div><input type="text" id="email"></div></div>
+        <div class="col">Name<div><input type="text" id="age"></div></div>
+    </div>
+    <button id="a1" onclick="addUser()">Added User</button>
+    <div id="p1"></div>
+    <div id="p2"></div>
+    <!-- <ul id="list"></ul> -->
+    <div id="list"></div>
+    <script src="Script.js"></script>
+</div>   
+</body>
+</html>
